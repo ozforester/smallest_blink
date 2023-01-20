@@ -1,8 +1,8 @@
 # tiny_blink
 Really tiny blink (26 bytes only) on a tiny attiny13.
 
-1. The most default register values stays untouched.
-2. All free vector space except WDT used as part of text section.
+1. The most default register values stay untouched.
+2. All free vector space except WDT is used as a part of text section.
 
 ```sh
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink.S
