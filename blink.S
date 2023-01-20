@@ -3,6 +3,8 @@
 ; that can be found in the LICENSE file.
 ; blinking led
 ; ATtiny13 (H:0xFF, L:0x71)
+; No comments, because
+; 13 avr instructions (-:
 #undef __SFR_OFFSET
 #define __SFR_OFFSET 0
 #include <avr/io.h>
@@ -17,7 +19,7 @@ vector_table:	ldi r21, (1<<PB1)
         	eor r16, r17
         	out PORTB, r16
 		reti
-rjmp watchdog
+		rjmp watchdog
 .section .text
 main:   ldi r20, 0b11000100            ; sec/4
         out WDTCR, r20                 ;
