@@ -6,8 +6,6 @@ Really tiny blink  on tiny attiny13.
 
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink.S<br>
 
-avr-objcopy -O binary blink blink.bin<br>
-
 avr-objcopy -O ihex blink blink.hex<br>
 
 avr-size blink.hex<br>
