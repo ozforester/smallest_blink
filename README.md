@@ -1,5 +1,5 @@
 # tiny_blink
-Really tiny blink  on tiny attiny13.
+Really tiny blink (26 bytes only) on tiny attiny13.
 
 1. The most default register values stays untouched.
 2. All free vector space except WDT used as part of text section.
