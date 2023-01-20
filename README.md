@@ -2,7 +2,7 @@
 Really tiny blink (26 bytes only) on a tiny attiny13.
 
 1. The most of registers stay untouched.
-2. All free vector space except WDT is used as a part of text section.
+2. All free vector space except wdt is used as a part of text section.
 
 ```sh
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink.S
