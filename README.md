@@ -1,6 +1,9 @@
 # tiny_blink
 Very small blink program
 
+1. The most default register values stays untouched.
+2. All free vector space except WDT used as part of text section.
+
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink.S<br>
 /usr/libexec/gcc/avr/ld: warning: -z now ignored<br>
 avr-objcopy -O binary blink blink.bin<br>
