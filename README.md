@@ -13,3 +13,5 @@ avr-objcopy -O ihex blink blink.hex<br>
 avr-size blink.hex<br>
    text	   data	    bss	    dec	    hex	filename<br>
       0	     26	      0	     26	     1a	blink.hex<br>
+
+![screenshot](blink.png)
