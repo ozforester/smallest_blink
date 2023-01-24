@@ -1,5 +1,9 @@
 # tiny_blink
-Really tiny blink (26 bytes only) on a tiny attiny13.
+Really tiny blink (26 bytes only) 
+blink2 (24 bytes)
+blink3 (22 bytes)
+blink4 (20 bytes)
+on a tiny attiny13.
 
 1. The most of registers stay untouched.
 2. All free vector space except wdt is used as a part of text section.
