@@ -1,7 +1,7 @@
 ; Copyright (c) 2023 ozforester. All rights reserved.
 ; Use of this source code is goverened by a MIT license
 ; that can be found in the LICENSE file.
-; blinking led
+; blinking led (24 bytes/ 12 instructions)
 ; ATtiny13 (H:0xFF, L:0x61)
 #undef __SFR_OFFSET
 #define __SFR_OFFSET 0
