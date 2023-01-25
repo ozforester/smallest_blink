@@ -27,7 +27,7 @@ avr-size blink.hex
    6:	e8 bb       	out	0x18, r30	; 24
    8:	fc cf       	rjmp	.-8      	;  0x2
 ```
-Use Linux utility xxd if handmade binary is preferred (;
+Use Linux utility xxd if the smallest compiler of yours is also preferred (;
 ```sh
 $ xxd -r - blink.bin
 bc9a3197f7ffe8bbfccf
