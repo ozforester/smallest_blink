@@ -21,7 +21,7 @@ avr-size blink.hex
 ![screenshot](blink.png)
 
 ```sh
-isassembly of section .sec1:
+disassembly of section .sec1:
 
 00000000 <.sec1>:
    0:	b9 9a       	sbi	0x17, 1	; 23
