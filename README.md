@@ -5,7 +5,7 @@ blink2 (24 bytes) and
 blink3 (22 bytes) and
 blink4 (20 bytes) and
 blink5 (18 bytes) and
-blink6 (16 bytes) eah, the most tricky one
+blink6 (16 bytes) eah, the most tricky one, and..
 blink7 (14 bytes) am sorry (;
 @tiny attiny13.
 
