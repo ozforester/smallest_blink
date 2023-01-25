@@ -7,11 +7,7 @@ blink4 (20 bytes) and
 blink5 (18 bytes) and
 blink6 (16 bytes) eah, the most tricky one (;
 @tiny attiny13.
-```
-1. The most of registers stay untouched.
-2. All free vector space except wdt is used as a part of text section.
 
-```sh
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink6.S
 avr-objcopy -O ihex blink blink.hex
 avr-size blink.hex
