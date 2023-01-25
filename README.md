@@ -1,4 +1,4 @@
-# tiny_blink
+# The smallest blink code
 ```sh
 Really tiny 
 blink (26 bytes) and then
