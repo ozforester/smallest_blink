@@ -1,12 +1,13 @@
 # tiny_blink
 ```sh
-Really tiny blink (26 bytes only) and
-blink2 (24 bytes) and
-blink3 (22 bytes) and
-blink4 (20 bytes) and
-blink5 (18 bytes) and
-blink6 (16 bytes) eah, the most tricky one, and..
-blink7 (14 bytes) am sorry (;
+Really tiny 
+blink (26 bytes) and then
+blink2 (24 bytes) and then
+blink3 (22 bytes) and then
+blink4 (20 bytes) and then
+blink5 (18 bytes) and then
+blink6 (16 bytes) eah, the most tricky one, and.. then
+blink7 (14 bytes) am sorry then (;
 blink8 (10 bytes) not funny..
 @tiny attiny13.
 
