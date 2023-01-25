@@ -27,13 +27,13 @@ avr-size blink.hex
    6:	e8 bb       	out	0x18, r30	; 24
    8:	fc cf       	rjmp	.-8      	;  0x2
 ```
-Use Linux utility xxd to make a binary in absence of avr-gcc
+Use Linux utility xxd if handmade binary is preferred (;
 ```sh
-$ xxd -r - xxx.bin
+$ xxd -r - blink.bin
 bc9a3197f7ffe8bbfccf
 ^D
 
-avrdude -c usbasp -p attiny13 -B 50 -U lfuse:w:0x61:m -U hfuse:w:0xff:m  -U flash:w:xxx.bin:r
+avrdude -c usbasp -p attiny13 -B 50 -U lfuse:w:0x61:m -U hfuse:w:0xff:m  -U flash:w:blink.bin:r
 ```
 That's all.
 Blinking.
