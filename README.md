@@ -30,8 +30,9 @@ avr-size blink.hex
 Use Linux utility xxd if the smallest compiler of yours is also preferred (;
 ```sh
 $ xxd -r - blink.bin
-bc9a3197f7ffe8bbfccf
+b99a3197f7ffe8bbfccf
 ^D
+(if code starts from bc9a you may move a led shield to 3,4 pins and remove two spare wires)
 
 avrdude -c usbasp -p attiny13 -B 50 -U lfuse:w:0x61:m -U hfuse:w:0xff:m  -U flash:w:blink.bin:r
 ```
