@@ -1,6 +1,5 @@
 #Tiny blink code
 ```sh
-Really tiny 
 blink  (26 bytes)
 blink2 (24 bytes)
 blink3 (22 bytes)
