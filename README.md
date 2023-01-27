@@ -1,14 +1,14 @@
 #Tiny blink code
 ```sh
 Really tiny 
-blink  (26 bytes) and then
-blink2 (24 bytes) and then
-blink3 (22 bytes) and then
-blink4 (20 bytes) and then
-blink5 (18 bytes) and then
-blink6 (16 bytes) eah, the most tricky one, and then
-blink7 (14 bytes) and then, oh no!!
-blink8 (10 bytes) (:
+blink  (26 bytes)
+blink2 (24 bytes)
+blink3 (22 bytes)
+blink4 (20 bytes)
+blink5 (18 bytes)
+blink6 (16 bytes)
+blink7 (14 bytes)
+blink8 (10 bytes)
 @tiny attiny13.
 
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink6.S
