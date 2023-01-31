@@ -9,7 +9,7 @@ blink6 (16 bytes)
 blink7 (14 bytes)
 blink8 (10 bytes)
 blink9 (6 bytes) LED between pins 3,4
-blink9 w/o DDRB setting may also blink via internal pull-up resistor (but this is not conventional blink anyway)
+blink9 w/o DDRB setting may also blinks via internal pull-up resistor (but this is not a conventional blink anyway)
 @tiny attiny13.
 
 avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink6.S
