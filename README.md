@@ -12,7 +12,7 @@ blink9 (6 bytes) LED between pins 3,4
 blink9 w/o DDRB setting may also blinks via internal pull-up resistor (but this is not a conventional blink anyway)
 @tiny attiny13.
 
-avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink6.S
+avr-gcc -nostartfiles -nodefaultlibs -flto -no-pie -fno-stack-protector -fno-pic -Wall -Os -mmcu=attiny13 -o blink blink9.S
 avr-objcopy -O ihex blink blink.hex
 avr-size blink.hex
   text	   data	    bss	    dec	    hex	filename
